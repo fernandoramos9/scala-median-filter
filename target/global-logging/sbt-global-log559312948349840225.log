@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\ferna\AppData\Local\Temp\idea6.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\ferna\AppData\Local\Temp\idea6.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.6 (Oracle Corporation Java 14.0.2)
+[debug]       Load.loadUnit: plugins took 138.374901ms
+[debug]       Load.loadUnit: defsScala took 0.217ms
+[debug] [Loading] Scanning directory C:\Users\ferna\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ferna\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 18.469701 ms
+[debug]           Load.resolveProject(global-plugins) took 109.880901ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\ferna\.sbt\1.0\plugins, plugins: List(<none>))) took 199.0319ms
+[debug] [Loading] Done in C:\Users\ferna\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 251.905901ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.227899ms
+[debug]     Load.loadUnit(file:/C:/Users/ferna/.sbt/1.0/plugins/, ...) took 397.611099ms
+[debug]   Load.apply: load took 1365.9248ms
+[debug]   Load.apply: resolveProjects took 5.6894ms
+[debug]   Load.apply: finalTransforms took 188.556999ms
+[debug]   Load.apply: config.delegates took 6.9037ms
+[debug]   Load.apply: Def.make(settings)... took 5192.9666ms
+[debug]   Load.apply: structureIndex took 255.3921ms
+[debug]   Load.apply: mkStreams took 1.4869ms
+[info] loading global plugins from C:\Users\ferna\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 15587.1286ms
+[debug]           Load.loadUnit: plugins took 26.7609ms
+[debug]           Load.loadUnit: defsScala took 0.003501ms
+[debug] [Loading] Scanning directory C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4\project
+[debug]             Load.loadUnit: mkEval took 39.854599ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.5824 ms
+[info] loading settings for project assignment-4-build from idea6.sbt ...
+[debug]               Load.resolveProject(assignment-4-build) took 2.8821ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id assignment-4-build, base: C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4\project, plugins: List(<none>))) took 5.031499ms
+[debug] [Loading] Done in C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4\project, returning: (assignment-4-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 339.0695ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.5501ms
+[debug]         Load.loadUnit(file:/C:/Users/ferna/Dropbox/Notability/CIIC%204030/Assignments/Assignment%204/project/, ...) took 373.4326ms
+[debug]       Load.apply: load took 374.8566ms
+[debug]       Load.apply: resolveProjects took 0.0855ms
+[debug]       Load.apply: finalTransforms took 10.2787ms
+[debug]       Load.apply: config.delegates took 0.3899ms
+[debug]       Load.apply: Def.make(settings)... took 84.681201ms
+[debug]       Load.apply: structureIndex took 25.522901ms
+[debug]       Load.apply: mkStreams took 0.0028ms
+[info] loading project definition from C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6084.5837ms
+[debug]     Load.loadUnit: defsScala took 0.0025ms
+[debug] [Loading] Scanning directory C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4
+[debug]       Load.loadUnit: mkEval took 0.4239ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.4707 ms
+[info] loading settings for project assignment-4 from build.sbt ...
+[debug]         Load.resolveProject(assignment-4) took 31.482ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id assignment-4, base: C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4, plugins: List(<none>))) took 35.245101ms
+[debug] [Loading] Done in C:\Users\ferna\Dropbox\Notability\CIIC 4030\Assignments\Assignment 4, returning: (assignment-4)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3971.9021ms
+[debug]     Load.loadUnit: cleanEvalClasses took 104.6605ms
+[debug]   Load.loadUnit(file:/C:/Users/ferna/Dropbox/Notability/CIIC%204030/Assignments/Assignment%204/, ...) took 10162.219401ms
+[debug] Load.apply: load took 10164.0132ms
+[debug] Load.apply: resolveProjects took 0.119701ms
+[debug] Load.apply: finalTransforms took 21.922701ms
+[debug] Load.apply: config.delegates took 0.3168ms
+[debug] Load.apply: Def.make(settings)... took 108.9459ms
+[debug] Load.apply: structureIndex took 24.2786ms
+[debug] Load.apply: mkStreams took 0.003ms
+[info] set current project to Assignment 4 (in build file:/C:/Users/ferna/Dropbox/Notability/CIIC%204030/Assignments/Assignment%204/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 62909 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 62909, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Assignment 4 (in build file:/C:/Users/ferna/Dropbox/Notability/CIIC%204030/Assignments/Assignment%204/)
+[debug] > Exec(idea-shell, None, None)
