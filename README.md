@@ -51,7 +51,7 @@ Since both processes are done in a similar manner, both give the same output how
 
 ### Original Image
 
-![A man in a hat](Images/flowers.jpeg)
+![Flowers](Images/flowers.JPEG)
 
 ### Processed Image with Serial Filter
 ![Serial Image](Output/flowersSerialImage.jpg)
