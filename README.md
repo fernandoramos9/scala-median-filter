@@ -29,12 +29,12 @@ Two examples are provided of two images with different dimensions.
 ![A man in a hat](Images/men.png)
 
 ### Processed Image with Serial Filter
-![Serial Image](output/serialImage.jpg)
+![Serial Image](Output/serialImage.jpg)
 
 
 ### Processed Image with Parallel Filter
 
-![Parallel Image](output/parallelImage.jpg)
+![Parallel Image](Output/parallelImage.jpg)
 
 Since both processes are done in a similar manner, both give the same output however there is a difference in the time that it takes to complete them.
 
@@ -54,12 +54,12 @@ Since both processes are done in a similar manner, both give the same output how
 ![A man in a hat](Images/flowers.jpeg)
 
 ### Processed Image with Serial Filter
-![Serial Image](output/flowersSerialImage.jpg)
+![Serial Image](Output/flowersSerialImage.jpg)
 
 
 ### Processed Image with Parallel Filter
 
-![Parallel Image](output/flowersParallelImage.jpg)
+![Parallel Image](Output/flowersParallelImage.jpg)
 
 |    Attempt    | Serial (ms) | Parallel (ms) | Difference |
 |:-------------:|:-----------:|:-------------:|:----------:|
